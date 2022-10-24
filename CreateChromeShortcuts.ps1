@@ -5,8 +5,8 @@
 # Describe: 【新建一个记事本文件，复制以下代码，保存为 chrome.ps1 ，右键单击选择“使用 PowerShell 运行”
 
 #先建立两个文件夹并复制其路径，【替换】以下两个路径
-$UserDataPath = 'E:\Chrome_UserData' # 存放 Chrome 用户数据
-$FilePath = 'E:\Chrome_ShortCuts'    # 存放快捷方式图标，从这个文件夹里打开浏览器分身
+$UserDataPath = "E:\Chrome_UserData" # 存放 Chrome 用户数据
+$FilePath = "E:\Chrome_ShortCuts"    # 存放快捷方式图标，从这个文件夹里打开浏览器分身
 
 #右键打开【你桌面上的 Chrome浏览器快捷方式】 ，复制“目标”一栏的内容，【替换】下方路径
 #（注意：只复制 C:\Users\....\chrome.exe ，chrome.exe 后面的形如“ --profile-directory”等字符不要复制） 
